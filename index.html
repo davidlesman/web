@@ -88,7 +88,6 @@
       color: var(--ink);
     }
 
-    /* Grid for Projects/Interests */
     .content-grid {
       display: grid;
       grid-template-columns: 1.5fr 1fr;
@@ -109,7 +108,14 @@
       background: #fff;
       border: var(--thickness) solid var(--ink);
       padding: 1.5rem;
+      margin-bottom: 1rem;
       transition: all 0.2s ease;
+    }
+
+    .project-card h3 {
+      font-family: 'Georgia';
+      font-style: italic;
+      text-transform: uppercase;
     }
 
     .project-card:hover {
@@ -253,6 +259,17 @@
     <div class="content-grid">
       <section>
         <h2>Work & Projects</h2>
+        <div class="project-card">
+          <h3 style="margin-top:0">F1 FPGA Sequence</h3>
+          <p>A hardware-based reaction timer implementing the FIA start sequence. Developed in SystemVerilog to ensure
+            millisecond precision and zero-latency logic.</p>
+          <div style="margin-bottom: 1.5rem;">
+            <span class="tag">FPGA</span>
+            <span class="tag">SystemVerilog</span>
+          </div>
+          <a href="https://github.com/davidlesman/f1fpga"
+            style="color: var(--brg); font-weight: 800; text-decoration: none;">VIEW SOURCE // 02</a>
+        </div>
         <div class="project-card">
           <h3 style="margin-top:0">Project Joker</h3>
           <p>An AI-powered synthesis engine that leverages Gemini LLMs to transform dense academic materials into
