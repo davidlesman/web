@@ -88,49 +88,10 @@
       color: var(--ink);
     }
 
-    .content-grid {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr;
-      gap: 3rem;
-    }
-
     @media (max-width: 768px) {
-      .content-grid {
-        grid-template-columns: 1fr;
-      }
-
       h1 {
         font-size: 2.5rem;
       }
-    }
-
-    .project-card {
-      background: #fff;
-      border: var(--thickness) solid var(--ink);
-      padding: 1.5rem;
-      margin-bottom: 1rem;
-      transition: all 0.2s ease;
-    }
-
-    .project-card h3 {
-      font-family: 'Georgia';
-      font-style: italic;
-      text-transform: uppercase;
-    }
-
-    .project-card:hover {
-      box-shadow: 8px 8px 0px var(--brg);
-      transform: translate(-4px, -4px);
-    }
-
-    .tag {
-      background: var(--brg);
-      color: white;
-      font-size: 0.7rem;
-      padding: 0.3rem 0.6rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-right: 5px;
     }
 
     .btn {
@@ -235,7 +196,7 @@
 
   <nav>
     <img src="logo.png" alt="DEL Logo" class="logo">
-    <div style="font-weight: 800; font-size: 0.8rem; text-transform: uppercase;">London // 2025</div>
+    <div style="font-weight: 800; font-size: 0.8rem; text-transform: uppercase;">London // 2026</div>
   </nav>
 
   <header>
@@ -250,48 +211,19 @@
         I am a dedicated <strong>EEE student</strong> at Imperial College London with a relentless drive for building
         and understanding <strong>complex hardware systems</strong>. My approach is defined by self-directed study and a
         proven ability to perform in high-stakes technical environments, evidenced by a <strong>6th place finish at the
-          Citadel Datathon 2025</strong>. I am focused on bridging the gap between hardware fundamentals and modern
-        signal processing, and I am actively seeking a <strong>2026 Summer Internship</strong> where I can apply a
+          Citadel Datathon 2025</strong>. I am currently interning at <strong>Material Inc.</strong> in Miami, and I
+        remain focused on bridging the gap between hardware fundamentals and modern signal processing, applying a
         high-output work ethic to real-world engineering challenges.
       </p>
     </section>
 
-    <div class="content-grid">
-      <section>
-        <h2>Work & Projects</h2>
-        <div class="project-card">
-          <h3 style="margin-top:0">F1 FPGA Sequence</h3>
-          <p>A hardware-based reaction timer implementing the FIA start sequence. Developed in SystemVerilog to ensure
-            millisecond precision and zero-latency logic.</p>
-          <div style="margin-bottom: 1.5rem;">
-            <span class="tag">FPGA</span>
-            <span class="tag">SystemVerilog</span>
-          </div>
-          <a href="https://github.com/davidlesman/f1fpga"
-            style="color: var(--brg); font-weight: 800; text-decoration: none;">VIEW SOURCE // 02</a>
-        </div>
-        <div class="project-card">
-          <h3 style="margin-top:0">Project Joker</h3>
-          <p>An AI-powered synthesis engine that leverages Gemini LLMs to transform dense academic materials into
-            structured digital flashcards.</p>
-          <div style="margin-bottom: 1.5rem;">
-            <span class="tag">Django</span>
-            <span class="tag">Python</span>
-            <span class="tag">AI/ML</span>
-          </div>
-          <a href="https://github.com/davidlesman/joker-flashcards"
-            style="color: var(--brg); font-weight: 800; text-decoration: none;">VIEW SOURCE // 01</a>
-        </div>
-      </section>
-
-      <section>
-        <h2>Proficiencies</h2>
-        <p><strong>Technical:</strong> SystemVerilog, Python (Django), MATLAB, C++.</p>
-        <p><strong>Theory:</strong> Signal Theory, Embedded Systems, Analog & Digital Circuit Design, and Philosophy of
-          Logic. Active curiosity in Quantum Computing.</p>
-        <p><strong>Personal:</strong> Competing in local Padel tournaments and casual Chess.</p>
-      </section>
-    </div>
+    <section>
+      <h2>Proficiencies</h2>
+      <p><strong>Technical:</strong> SystemVerilog, Python (Django), MATLAB, C++.</p>
+      <p><strong>Theory:</strong> Signal Theory, Embedded Systems, Analog & Digital Circuit Design, and Philosophy of
+        Logic. Active curiosity in Quantum Computing.</p>
+      <p><strong>Personal:</strong> Competing in local Padel tournaments and casual Chess.</p>
+    </section>
 
     <section style="text-align: left;">
       <a href="https://www.dlesman.com/resume" class="btn" target="_blank">Download Full CV (PDF)</a>
@@ -308,7 +240,7 @@
 
       <div class="stamp">
         <span class="latin">"Non Finitur, Donec Vinco."</span>
-        <span class="sub">Lesman // Imperial EEE // 2025</span>
+        <span class="sub">Lesman // Imperial EEE // 2026</span>
       </div>
     </div>
   </footer>
